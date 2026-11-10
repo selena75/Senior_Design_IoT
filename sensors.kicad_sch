@@ -156,7 +156,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 34.29 -2.54 180)
 					(length 7.62)
 					(name "VSS"
@@ -305,7 +305,7 @@
 				)
 			)
 			(symbol "IIS3DWBTR_0_1"
-				(pin unspecified line
+				(pin output line
 					(at 0 -1.27 0)
 					(length 7.62)
 					(name "SDO/SA0"
@@ -323,7 +323,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "RES"
@@ -341,7 +341,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "RES"
@@ -359,7 +359,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -3.81 0)
 					(length 7.62)
 					(name "INT1"
@@ -395,7 +395,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "GND"
@@ -413,7 +413,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "GND"
@@ -449,7 +449,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 48.26 -16.51 180)
 					(length 7.62)
 					(name "INT2"
@@ -467,7 +467,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 48.26 -13.97 180)
 					(length 7.62)
 					(name "RES"
@@ -485,7 +485,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 48.26 -11.43 180)
 					(length 7.62)
 					(name "RES"
@@ -521,7 +521,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 48.26 -8.89 180)
 					(length 7.62)
 					(name "SPC/SCL"
@@ -539,7 +539,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 48.26 -6.35 180)
 					(length 7.62)
 					(name "SDI/SDO/SDA"
@@ -734,7 +734,7 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(name "SDO"
@@ -2201,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 138.43) (xy 118.11 138.43)
+			(xy 115.57 138.43) (xy 119.38 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2670,7 @@
 	)
 	(hierarchical_label "SPI1_CS"
 		(shape input)
-		(at 118.11 138.43 0)
+		(at 119.38 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2815,7 +2815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.1852 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.1052 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.5148 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4086,7 +4086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 194.818 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4597,7 +4597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.4852 54.61 0)
 			(hide yes)
 			(show_name no)
